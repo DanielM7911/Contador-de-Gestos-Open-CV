@@ -21,6 +21,7 @@
     .blue { background:#0d6efd; }
     .orange { background:#fd7e14; }
     .small-muted { color:#adb5bd; }
+    .api-status { font-size:.9rem; }
   </style>
 
   <!-- MediaPipe -->
@@ -59,7 +60,7 @@
           <hr>
 
           <!-- Contadores con títulos -->
-          <div class="vstack gap-3">
+          <div class="vstack gap-3 mb-3">
             <div class="counter-box">
               <div class="counter-title">Parpadeos</div>
               <div class="counter-value green" id="blinkCount">0</div>
@@ -73,9 +74,11 @@
               <div class="counter-value orange" id="mouthCount">0</div>
             </div>
           </div>
+
+          <!-- Estado API -->
+          <div id="apiMsg" class="api-status small-muted"></div>
         </div>
       </div>
-
     </div>
   </main>
 
