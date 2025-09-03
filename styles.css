@@ -1,0 +1,19 @@
+/* styles.css */
+#canvas {
+  max-width: 100%;
+  height: auto;
+  background: #111;
+}
+
+.card .form-text {
+  font-size: 0.85rem;
+}
+
+.badge.fs-6 {
+  min-width: 42px;
+  text-align: center;
+}
+
+footer .container {
+  gap: .75rem;
+}
